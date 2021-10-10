@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   int age;
+   cin >> "Enter your age as per in your documents";
+   cin >> age ;
+
+   if(age>=18){
+       cout<<"You are eleigible for voting!";
+   }else{
+       cout << "You are minor and not eligible for voting!"<<endl;
+       cout <<"Wait for "<< (18-age) <<" years to vote.";
+   }
+   return 0;
+}
